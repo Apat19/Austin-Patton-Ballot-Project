@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D94AF06829FD661100B90260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94AF06729FD661100B90260 /* ViewController.swift */; };
+		D94AF06B29FD661F00B90260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94AF06929FD661F00B90260 /* Main.storyboard */; };
 		D99273E029F981B600F4844C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99273DF29F981B600F4844C /* AppDelegate.swift */; };
 		D99273E229F981B600F4844C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99273E129F981B600F4844C /* SceneDelegate.swift */; };
-		D99273E429F981B600F4844C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99273E329F981B600F4844C /* ViewController.swift */; };
-		D99273E729F981B600F4844C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99273E529F981B600F4844C /* Main.storyboard */; };
 		D99273E929F981B800F4844C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99273E829F981B800F4844C /* Assets.xcassets */; };
 		D99273EC29F981B800F4844C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99273EA29F981B800F4844C /* LaunchScreen.storyboard */; };
+		D99273F429F984F100F4844C /* color strip.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D99273F329F984F100F4844C /* color strip.jpeg */; };
+		D995144929FD72C2008B1F64 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995144829FD72C2008B1F64 /* TBViewController.swift */; };
+		D995144B29FD7443008B1F64 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995144A29FD7443008B1F64 /* VotingViewController.swift */; };
+		D995144E29FD770E008B1F64 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = D995144D29FD770E008B1F64 /* red.png */; };
+		D995145029FD77B3008B1F64 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D995144F29FD77B3008B1F64 /* blue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D94AF06729FD661100B90260 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D94AF06A29FD661F00B90260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D99273DC29F981B600F4844C /* Austin Patton Ballot Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Austin Patton Ballot Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99273DF29F981B600F4844C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D99273E129F981B600F4844C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D99273E329F981B600F4844C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D99273E629F981B600F4844C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D99273E829F981B800F4844C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99273EB29F981B800F4844C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99273ED29F981B800F4844C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99273F329F984F100F4844C /* color strip.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "color strip.jpeg"; path = "../../../../Downloads/color strip.jpeg"; sourceTree = "<group>"; };
+		D995144829FD72C2008B1F64 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
+		D995144A29FD7443008B1F64 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		D995144D29FD770E008B1F64 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../../../Downloads/red.png; sourceTree = "<group>"; };
+		D995144F29FD77B3008B1F64 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = ../../../../Downloads/blue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				D99273DF29F981B600F4844C /* AppDelegate.swift */,
 				D99273E129F981B600F4844C /* SceneDelegate.swift */,
-				D99273E329F981B600F4844C /* ViewController.swift */,
-				D99273E529F981B600F4844C /* Main.storyboard */,
+				D94AF06929FD661F00B90260 /* Main.storyboard */,
+				D94AF06729FD661100B90260 /* ViewController.swift */,
+				D995144829FD72C2008B1F64 /* TBViewController.swift */,
+				D995144A29FD7443008B1F64 /* VotingViewController.swift */,
 				D99273E829F981B800F4844C /* Assets.xcassets */,
+				D99273F329F984F100F4844C /* color strip.jpeg */,
 				D99273EA29F981B800F4844C /* LaunchScreen.storyboard */,
 				D99273ED29F981B800F4844C /* Info.plist */,
+				D995144D29FD770E008B1F64 /* red.png */,
+				D995144F29FD77B3008B1F64 /* blue.png */,
 			);
 			path = "Austin Patton Ballot Project";
 			sourceTree = "<group>";
@@ -126,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99273EC29F981B800F4844C /* LaunchScreen.storyboard in Resources */,
+				D99273F429F984F100F4844C /* color strip.jpeg in Resources */,
 				D99273E929F981B800F4844C /* Assets.xcassets in Resources */,
-				D99273E729F981B600F4844C /* Main.storyboard in Resources */,
+				D995144E29FD770E008B1F64 /* red.png in Resources */,
+				D94AF06B29FD661F00B90260 /* Main.storyboard in Resources */,
+				D995145029FD77B3008B1F64 /* blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,19 +156,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99273E429F981B600F4844C /* ViewController.swift in Sources */,
+				D94AF06829FD661100B90260 /* ViewController.swift in Sources */,
 				D99273E029F981B600F4844C /* AppDelegate.swift in Sources */,
+				D995144929FD72C2008B1F64 /* TBViewController.swift in Sources */,
 				D99273E229F981B600F4844C /* SceneDelegate.swift in Sources */,
+				D995144B29FD7443008B1F64 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D99273E529F981B600F4844C /* Main.storyboard */ = {
+		D94AF06929FD661F00B90260 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D99273E629F981B600F4844C /* Base */,
+				D94AF06A29FD661F00B90260 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
